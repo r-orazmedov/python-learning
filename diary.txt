@@ -1,0 +1,30 @@
+Задание 1:
+def is_positive(number):
+    if number > 0:
+        return True
+    else:
+        return False
+number = int(input("Enter a number: "))
+print(is_positive(number))
+Задание 2:
+numbers = [5, 10, 15, 20, 25]
+print(numbers[2:])
+Задание 3:
+user = {
+    "name" : "Rahat",
+    "age" : 24,
+    "country" : "Turkmenistan",
+}
+for key, value in user.items():
+    print(f"{key}: {value}")
+Задание 4:
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def introduce(self):
+        print(f"My name is {self.name}. I am {self.age} years old.")
+student = Student("Rahat", 24)
+student1 = Student("John", 25)
+student.introduce()
+Задание 5:
